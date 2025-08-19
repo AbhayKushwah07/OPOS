@@ -3,6 +3,14 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "admin": [
+        "./dist/admin"
+      ],
+      "user": [
+        "./dist/user"
+      ]
+    },
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
@@ -29,6 +37,18 @@
     },
     {
       "path": "./tsconfig.spec.json"
+    },
+    {
+      "path": "./libs/admin/tsconfig.lib.json"
+    },
+    {
+      "path": "./libs/admin/tsconfig.spec.json"
+    },
+    {
+      "path": "./libs/user/tsconfig.lib.json"
+    },
+    {
+      "path": "./libs/user/tsconfig.spec.json"
     }
   ]
 }
